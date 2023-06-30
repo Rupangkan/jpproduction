@@ -1,0 +1,80 @@
+[08-Aug-2018 06:53:19 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/digita39/public_html/Websites/Ganesh/binary/storage/framework/views/6cf619203ffea6b484636290e4e39613581d4090.php on line 50
+[08-Aug-2018 06:56:50 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/digita39/public_html/Websites/Ganesh/binary/storage/framework/views/cc1480ee1f61a1b48117da21e5357f2423e9fbce.php on line 50
+[08-Aug-2018 06:58:17 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/digita39/public_html/Websites/Ganesh/binary/storage/framework/views/cc1480ee1f61a1b48117da21e5357f2423e9fbce.php on line 50
+[08-Aug-2018 06:58:19 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/digita39/public_html/Websites/Ganesh/binary/storage/framework/views/cc1480ee1f61a1b48117da21e5357f2423e9fbce.php on line 50
+[05-Oct-2018 17:56:13 UTC] PHP Warning:  Uncaught ErrorException: require_once(dompdf/autoload.inc.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:266
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(do...', '/home/digita39/...', 266, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('DowloadReceiptA.. in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 17:56:13 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 17:56:42 UTC] PHP Warning:  Uncaught ErrorException: require_once(dompdf/src/Autoloader.inc.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:266
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(do...', '/home/digita39/...', 266, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('DowloadRece in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 17:56:42 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required 'dompdf/src/Autoloader.inc.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 17:58:09 UTC] PHP Warning:  Unterminated comment starting line 2057 in /home/digita39/public_html/Websites/Ganesh/dompdf/lib/html5lib/Tokenizer.php on line 2057
+[05-Oct-2018 17:59:21 UTC] PHP Warning:  Unterminated comment starting line 2057 in /home/digita39/public_html/Websites/Ganesh/dompdf/lib/html5lib/Tokenizer.php on line 2057
+[05-Oct-2018 18:00:00 UTC] PHP Warning:  Unterminated comment starting line 2057 in /home/digita39/public_html/Websites/Ganesh/dompdf/lib/html5lib/Tokenizer.php on line 2057
+[05-Oct-2018 18:00:26 UTC] PHP Warning:  Uncaught ErrorException: require_once(/dompdf/lib/html5lib/Parser.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:266
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/d...', '/home/digita39/...', 266, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('DowloadRe in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 18:00:26 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required '/dompdf/lib/html5lib/Parser.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 18:00:45 UTC] PHP Warning:  Unterminated comment starting line 2057 in /home/digita39/public_html/Websites/Ganesh/dompdf/lib/html5lib/Tokenizer.php on line 2057
+[05-Oct-2018 18:03:36 UTC] PHP Warning:  Uncaught ErrorException: require_once(./dompdf/lib/php-font-lib/src/FontLib/Autoloader.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:267
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(267): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/digita39/...', 267, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(267): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller-> in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 267
+[05-Oct-2018 18:03:36 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required './dompdf/lib/php-font-lib/src/FontLib/Autoloader.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 267
+[05-Oct-2018 18:08:16 UTC] PHP Warning:  Uncaught ErrorException: require_once(./dompdf/lib/php-svg-lib/src/autoload.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:268
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(268): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/digita39/...', 268, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(268): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction( in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 268
+[05-Oct-2018 18:08:16 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required './dompdf/lib/php-svg-lib/src/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 268
+[05-Oct-2018 19:02:48 UTC] PHP Warning:  Uncaught ErrorException: require_once(dompdf/autoload.inc.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:266
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(do...', '/home/digita39/...', 266, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('DowloadReceiptA.. in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 19:02:48 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 19:04:37 UTC] PHP Warning:  Uncaught ErrorException: require_once(./dompdf/autoload.inc.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:266
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/digita39/...', 266, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('DowloadReceiptA in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 19:04:37 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required './dompdf/autoload.inc.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 19:18:40 UTC] PHP Warning:  Uncaught ErrorException: require_once(./dompdf/lib/php-font-lib/src/FontLib/Autoloader.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:268
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(268): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/digita39/...', 268, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(268): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller-> in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 268
+[05-Oct-2018 19:18:40 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required './dompdf/lib/php-font-lib/src/FontLib/Autoloader.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 268
+[05-Oct-2018 19:20:37 UTC] PHP Warning:  Uncaught ErrorException: require_once(./dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php:266
+Stack trace:
+#0 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/digita39/...', 266, Array)
+#1 /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php(266): require_once()
+#2 [internal function]: App\Http\Controllers\PayoutController->DowloadReceiptAll(Object(Illuminate\Http\Request))
+#3 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/digita39/public_html/Websites/Ganesh/binary/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('DowloadRec in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
+[05-Oct-2018 19:20:37 UTC] PHP Fatal error:  App\Http\Controllers\PayoutController::DowloadReceiptAll(): Failed opening required './dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/digita39/public_html/Websites/Ganesh/binary/app/Http/Controllers/PayoutController.php on line 266
